@@ -31,8 +31,8 @@ function UserSearch() {
             <form onSubmit={handleSubmit}>
                 <div className="form-control">
                     <div className="relative">
-                        <input type="text" className='w-full pr-40 bg-gray-200 input input-lg text-black' placeholder='Search' value={text} onChange={handleChange} />
-                        <button type='submit' className="absolute right-0 top-0 rounded-l-none w-36 btn btn-lg">Go</button>
+                        <input type="text" className='w-full pr-40 bg-gray-200 input input-lg text-black' placeholder='Type Your Github Profile' value={text} onChange={handleChange} />
+                        <button type='submit' className="absolute right-0 top-0 rounded-l-none w-36 btn btn-lg">Search</button>
                     </div>
                 </div>
             </form>
@@ -49,3 +49,4 @@ function UserSearch() {
 }
 
 export default UserSearch;
+
